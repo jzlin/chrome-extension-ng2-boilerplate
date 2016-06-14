@@ -14,16 +14,12 @@
 <body>
   <chrome-extension-ng2-boilerplate-app>Loading...</chrome-extension-ng2-boilerplate-app>
 
-  
+
 
     {{#each scripts.polyfills}}<script src="{{.}}"></script>{{/each}}
-    <script>
-      System.import('system-config.js').then(function () {
-        System.import('main');
-      }).catch(console.error.bind(console));
-    </script>
+    <script src="system-loader.js"></script>
 
-  
+
 
 
 
