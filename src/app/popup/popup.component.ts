@@ -1,3 +1,4 @@
+///<reference path="../../../typings/globals/chrome/index.d.ts" />
 import { Component, OnInit } from '@angular/core';
 
 @Component({
