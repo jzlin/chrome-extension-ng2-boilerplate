@@ -30,6 +30,14 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Install
+1. run `git clone https://github.com/jzlin/chrome-extension-ng2-boilerplate.git`
+2. run `cd chrome-extension-ng2-boilerplate`
+3. run `npm install`
+4. run `typings install`
+5. run `ng serve`
+6. open [http://localhost:4200](http://localhost:4200)
+
 ## Test Extension in Chrome
 1. Visit `chrome://extensions/` in your browser.
 2. Ensure that the `Developer mode` checkbox in the top right-hand corner is checked.
