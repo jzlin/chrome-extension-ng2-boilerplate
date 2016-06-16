@@ -12,14 +12,14 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <chrome-extension-ng2-boilerplate-app>Loading...</chrome-extension-ng2-boilerplate-app>
+  <app-root>Loading...</app-root>
 
 
 
-    {{#each scripts.polyfills}}<script src="{{.}}"></script>{{/each}}
+    {{#each scripts.polyfills}}
+    <script src="{{.}}"></script>
+    {{/each}}
     <script src="system-loader.js"></script>
-
-
 
 
 

@@ -1,6 +1,6 @@
 import { ChromeExtensionNg2BoilerplatePage } from './app.po';
 
-describe('chrome-extension-ng2-boilerplate App', function() {
+describe('ChromeExtensionNg2Boilerplate App', function() {
   let page: ChromeExtensionNg2BoilerplatePage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('chrome-extension-ng2-boilerplate App', function() {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('chrome-extension-ng2-boilerplate works!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });

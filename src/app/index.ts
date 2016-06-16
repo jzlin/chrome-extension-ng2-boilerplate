@@ -1,2 +1,3 @@
 export * from './environment';
-export * from './chrome-extension-ng2-boilerplate.component';
+export * from './app.component';
+export * from './app.routes';
