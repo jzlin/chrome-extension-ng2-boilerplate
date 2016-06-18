@@ -11,17 +11,17 @@
   },
   "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'",
   "background": {
-    "page": "index.html",
+    "page": "index.html?page=background",
     "persistent": false
   },
-  "options_page": "index.html",
+  "options_page": "index.html?page=options",
   "browser_action": {
     "default_icon": {
       "19": "favicon.ico",
       "38": "favicon.ico"
     },
     "default_title": "browser action title",
-    "default_popup": "index.html"
+    "default_popup": "index.html?page=popup"
   },
   "permissions": [
     "storage",
